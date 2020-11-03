@@ -1,1 +1,9 @@
 <h1>Works page coming soon</h1>
+
+<div>
+    <% works.forEach(function(work){ %>
+        <img src="<%= work.image %>">
+        <h3><%= work.name %></h3>
+        <a href="/works/<%= work._id %>">More Info</a>
+    <% }); %>
+</div>
