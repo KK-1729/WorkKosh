@@ -1,0 +1,71 @@
+/* Navigation Bar */
+
+.nav-section {
+    padding-left: 55px;
+    padding-right: 72px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    background: #000000;
+}
+.site-logo img{
+    width:20%;
+}
+.nav-right {
+    font-size: 18px;
+}
+span i{
+    color: #ffffff;
+    font-size: 25px;
+}
+span i:hover{
+    color: #94420b;
+}
+span:focus{
+    outline: none;
+}
+.home{
+    width: 100px;
+    max-width: auto;
+    text-align: center;
+}
+.home:hover{
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-right a, .nav-right span {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 10px;
+}
+.nav-right a:hover {
+    text-decoration: none;
+    color: #94420b;
+}
+.account button{
+    padding: .5rem 1rem;
+    background-color: #94420b;
+    font-size: 18px;
+    color: #ffffff;
+}
+.account button:hover{
+    color: #ffffff;
+    background-color: #bd540f;
+}
+.dropdown-menu{
+    background-color: #000000;
+    max-width: 250px;
+    margin-top: .5rem;
+    border: 1px solid #ffffff;
+}
+.dropdown-menu .dropdown-item{
+    width: auto;
+}
+.dropdown-menu hr{
+    width: auto;
+    border-top: 2px solid #ffffff;
+    margin: 7px 0;
+}

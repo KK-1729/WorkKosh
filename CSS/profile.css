@@ -1,0 +1,72 @@
+body{
+    margin-top: 120px;
+    background-color: #000000;
+}
+input:focus{
+    outline: none;
+}
+
+/* Employer */
+
+.profile{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.profile-title{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.profile-text{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.profile hr{
+    margin: 30px auto;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+}
+.profile .row{
+    margin-top: 30px;
+}
+.profile .label{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profile .value{
+    font-weight: 500;
+    width: -webkit-fill-available;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.profile .phone{
+    font-weight: 500;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: inline;
+}
+.profile .btn-update{
+    background-color: #94420b;
+    color: #ffffff;
+}
+.profile .btn-update:hover{
+    background-color: #bd540f;
+    color: #ffffff;
+}
+.profile .heading{
+    margin-top: 30px;
+}
+.profile .options .btn-update{
+    margin: 30px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

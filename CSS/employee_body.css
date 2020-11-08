@@ -1,0 +1,45 @@
+body{
+    background-color: #000000;
+    margin-top: 120px;
+}
+input:focus, textarea:focus, button:focus{
+    outline: none;
+}
+.errors{
+	width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    text-align: center;
+}
+.errors p{
+	margin: 0;
+}
+
+/* Cards */
+.works{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin-bottom: 40px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-text{
+    font-size: 18px;
+}
+.card hr{
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+}
+.btn-new{
+    background-color: #94420b;
+    color: #ffffff;
+}
+.btn-new:hover{
+    background-color: #bd540f;
+    cursor: pointer;
+    color: #ffffff;
+}
